@@ -15,6 +15,9 @@ res.send('Hello from About route');
 app.get('/contact', (req, res)=>{
 res.send('Hello from Contact route');
 });
+app.get('/login', (req, res)=>{
+res.send('<h1>Login page</h1>');
+});
 
 
 app.listen(port,() =>{
